@@ -1,3 +1,5 @@
+// 3. find whatever package (module) on npmjs.com and use -> third-party module
+
 // import chalk from "chalk";
 // console.log(chalk.blue("Hello ") + chalk.red("world"));
 
