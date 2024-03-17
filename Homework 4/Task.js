@@ -4,7 +4,7 @@ const {
     deleteMovie,
     getAllMovies,
     getOneMovie,
-} = require("./zad2");
+} = require("./CRUD");
 let movies;
 (async ()=>{
     try {
