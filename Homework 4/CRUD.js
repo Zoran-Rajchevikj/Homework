@@ -18,9 +18,9 @@ const deleteMovie = async (id)=>{
 }
 
 const addNewMovie = async (newCarData)=>{
-    let movies = await read();//let students = await read();
-    movies.push(newCarData);//  students.push(newStudentData);
-    await write(movies);// await write(students);
+    let movies = await read();
+    movies.push(newCarData);
+    await write(movies);
 }
 const editMovie = async (id , editCarData) =>{
     let movies = await read();
