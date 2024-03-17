@@ -1,7 +1,7 @@
 const {
     read,
     write
-}= require("./ReadWrite.js");
+}= require("./ReadWrite");
 
 const getAllMovies = async ()=>{
    return  await read();
